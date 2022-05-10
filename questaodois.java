@@ -36,8 +36,8 @@ public class questaodois {
 			System.out.println("\nEm ordem crescente, os números são "+c+a+b);
 		}
 		else if(c<b && b<a)
-		{
-			System.out.println("\nEm ordem crescente, os números são "+c+b+a);
+		{//Para ter espaço entre os números, é preciso concatenar igual aqui embaixo¬¬
+			System.out.println("\nEm ordem crescente, os números são "+c+", "+b+" e "+a);
 		}
 		else
 		{
